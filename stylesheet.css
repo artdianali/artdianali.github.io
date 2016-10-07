@@ -1,0 +1,331 @@
+/* CSS */
+
+/* header */
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #cda34f;
+    color: #e9e7da;
+	margin: 0px;
+    padding-top: .5em;
+    padding-bottom: 1em;
+	border: none;
+    text-align: center;
+}
+
+#header a:first-child {
+    text-decoration: none;
+    color: #e9e7da;
+}
+
+#header a:first-child:hover {
+    text-decoration: none;
+    color: #e9e7da;
+}
+
+#header a:link {
+    color: #373f27;
+}
+
+#header a:hover {
+    color: #636846;
+}
+
+/* body */
+
+body {
+	background-color: #cda34f;
+	text-align: center;
+	color: #e9e7da;
+	font-family: Futura, sans-serif;
+	margin: 10em 10em;
+}
+
+p {
+    text-align: left; 
+    font-family: Courier, serif;
+}
+
+p>img {
+    padding-right: 1em;
+}
+
+/* links */
+a:link {
+	color: #cda34f;
+    text-decoration: overline;
+}
+a:visited {
+	color: #373f27;
+}
+a:hover {
+	color: #636846;
+}
+a h5 {
+    display: inline
+}
+
+#cover {
+	margin: 7.5em;
+}
+
+/* notes & references list */
+ol>li {
+    font-size: 0.8em;
+    text-align: left;
+    display: list-item;
+    list-style: lower-roman;
+    list-style-position: inside;
+    margin-left: 30%;
+}
+
+/* footer */
+#footer img {
+    position: fixed;
+    float: right;
+    bottom: 0;
+    right: 0;
+    max-width: 20%;
+    height: auto;
+}
+
+#footer h6 {
+    position: fixed;
+    float: right;
+    font-size: 0.75vw;
+    bottom: 0px;
+    right: 21em;
+    z-index: 1;
+}
+
+
+/* homepage table */
+#home {
+    background-color: #cda34f;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+div#home td {
+    text-align: center;
+    background-color: #e9e7da; 
+    border: 2px solid #636846;
+    width: 10em;
+    margin: 3em;
+    padding: 1.5em;
+}
+
+div#home tr img {
+    width: 150px;
+    height: 150px;
+}
+
+/* div category background class and ids */
+h2 {
+	text-align: right;
+}
+
+.scrolltrain {
+	height: 325px;
+	overflow: auto;
+    display: block;
+	border-radius: 5px;
+	border: none;
+	padding-right: 2em;
+	margin: 20px;
+}
+
+ul {
+    display: table;
+    white-space: no-wrap;
+    list-style: none;
+}
+
+li {
+	display: table-cell;
+    text-align: center;
+    padding: 1em;
+}
+
+li>a:link {
+    color: 
+}
+
+li img {
+    display: block;
+    text-align: center;
+    height: 10em;
+    opacity: .5;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+li img:hover {
+    opacity: 1;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+span {
+    padding: 5px 0 0;
+    display: block;
+}
+
+#familyBG {
+	background-color: #8D1800;
+    border: 2px solid #636846;
+}
+#charactersBG {
+	background-color: #138E8E;
+    border: 2px solid #e9e7da;
+}
+#foodBG {
+    background-color: darkslateblue;
+    border: 2px solid #636846;
+}
+#hoardedBG {
+	background-color: #eac67a;
+}
+#technologicalBG {
+	background-color: #AAAAAA;
+}
+#memoriesBG {
+	background-color: #CCCCCC;
+}
+#trainghostsBG {
+	background-color: #EEEEEE;
+}
+#ghosttrainsBG {
+	background-color: #CCCCCC;
+}
+#notes {
+	background-color: #CC0000;
+}
+
+
+/* family tree */
+.tree ul {
+    padding-top: 20px; position: relative;
+    z-index: -1;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+    content: '';
+    position: absolute; top: 0; right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%; height: 45px;
+    z-index: -1;
+}
+.tree li::after{
+    right: auto; left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+    border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+
+    -webkit-transform: translateX(1px);
+    -moz-transform: translateX(1px);
+    transform: translateX(1px);
+
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+    content: '';
+    position: absolute; top: -12px; left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0; height: 32px;
+    z-index: -1;
+}
+
+.tree li a{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #666;
+    font-family: arial, verdana, tahoma;
+    font-size: 0.8em;
+    display: inline-block;
+    background: white;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.tree li a+a {
+    margin-left: 20px;
+    position: relative;
+}
+.tree li a+a::before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #ccc;
+    top: 50%; left: -21px; 
+    width: 20px;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover~ul li a {
+    background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+/*Connector styles on hover*/
+.tree li a:hover~ul li::after, 
+.tree li a:hover~ul li::before, 
+.tree li a:hover~ul::before, 
+.tree li a:hover~ul ul::before
+{
+    border-color: #94a0b4;
+}
