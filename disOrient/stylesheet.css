@@ -23,6 +23,6 @@ body {
     display: block;
     width: 8em;
     height: 8em;
-    position: relative;
+    position: absolute;
     float: none;
 }
