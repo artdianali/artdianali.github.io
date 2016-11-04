@@ -23,5 +23,6 @@ body {
     display: block;
     width: 8em;
     height: 8em;
+    position: absolute;
     float: none;
 }
