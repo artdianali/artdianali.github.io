@@ -16,3 +16,7 @@ body {
     /* This centers our sketch vertically. */
     align-items: center;
 }
+
+#sqLink {
+    margin-left: 20em;
+}
