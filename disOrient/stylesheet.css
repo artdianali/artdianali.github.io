@@ -18,5 +18,11 @@ body {
 }
 
 #sqLink {
-    margin-left: 20em;
+    margin-top: -26em;
+    margin-left: -14em;
+    display: block;
+    width: 8em;
+    height: 8em;
+    background-color: white
+    float: none;
 }
