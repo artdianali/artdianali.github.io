@@ -13,7 +13,6 @@ function setup() {
 }
 
 function draw() {
-  background(255)
   image(img, width/2, height/2);
   image(imgMask, mouseX, mouseY);
 }
