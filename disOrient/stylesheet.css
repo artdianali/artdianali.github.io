@@ -9,7 +9,6 @@ body {
     color: azure;
     margin: 0;
     display: flex;
-    font: Courier;
     
     /* This centers our sketch horizontally. */
     justify-content: center;
@@ -34,6 +33,7 @@ body {
 }
 
 #letterD h1 {
+  font-family: Courier;
   position: fixed;
   float: right;
   bottom: 0;
