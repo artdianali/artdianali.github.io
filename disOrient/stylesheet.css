@@ -33,6 +33,7 @@ body {
 }
 
 #letterD h1 {
+  color: #000000;
   font-family: Courier;
   position: fixed;
   float: right;
