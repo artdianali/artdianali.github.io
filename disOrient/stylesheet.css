@@ -34,4 +34,9 @@ body#letterD {
 
 body#letterD h1 {
   position: fixed;
+  float: right;
+  bottom: 0;
+  right: 0;
+  max-width: 20%;
+  height: auto;
 }
