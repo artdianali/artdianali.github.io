@@ -4,7 +4,7 @@ var word
 var value = d;
 
 function setup() {
-  createCanvas(1800,1000);
+  createCanvas(700,1000);
   textFont("Courier");
   word=random(words);
   textSize(random(54,200));
