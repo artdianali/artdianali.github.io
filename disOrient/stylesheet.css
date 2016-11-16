@@ -29,11 +29,11 @@ body {
     float: none;
 }
 
-body#letterD {
+#letterD {
   background-color: #fdcb32;
 }
 
-body#letterD h1 {
+#letterD h1 {
   position: fixed;
   float: right;
   bottom: 0;
