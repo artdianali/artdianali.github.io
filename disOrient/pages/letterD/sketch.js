@@ -23,3 +23,7 @@ function keyPressed() {
     word=random(words);
   } 
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth,windowHeight);
+}
