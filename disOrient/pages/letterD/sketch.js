@@ -32,8 +32,8 @@ function mousePressed() {
   if (word === "diana") {
     mySound.play();
     word='';
-    myLink.position(width/7,height/2)
     myLink=createA('http://p5js.org/', 'Where are you from?');
+    myLink.position(width/7,height/2)
   } 
 }
 
