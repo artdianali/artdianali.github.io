@@ -40,6 +40,7 @@ function mousePressed() {
     myLink.style("font-family", "Courier");
     myLink.attribute("target", "_blank");
   } 
+  return false;
 }
 
 function windowResized() {
