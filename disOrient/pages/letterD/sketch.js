@@ -33,6 +33,7 @@ function keyPressed() {
 function mousePressed() {
   if (word === "diana") {
     mySound.play();
+    word = '';
     myLink = createA('http://p5js.org/', box);
   } 
 }
