@@ -11,7 +11,7 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   textFont("Courier");
   word=random(words);
-  textSize(random(54,90));
+  textSize(random(54,100));
 }
 
 
@@ -23,7 +23,7 @@ function draw(){
 
 function keyPressed() {
   if (key === 'd') {
-    textSize(random(48,90));
+    textSize(random(48,100));
     word=random(words);
   } 
 }
@@ -34,8 +34,8 @@ function mousePressed() {
     word='';
     myLink=createA('http://p5js.org/', 'Where are you from?');
     myLink.position(width/7,height/1.5);
-    myLink.style("font-size", "90px");
-    myLink.style("color", "#000000");
+    myLink.style("font-size", "80px");
+    myLink.style("color", "#100195");
     myLink.style("text-decoration", "none");
     myLink.style("font-family", "Courier");
   } 
