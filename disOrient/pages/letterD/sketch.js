@@ -37,6 +37,7 @@ function mousePressed() {
     myLink.style("font-size", "90px");
     myLink.style("color", "#000000");
     myLink.style("text-decoration", "none");
+    myLink.style("font-family", "Courier");
   } 
 }
 
