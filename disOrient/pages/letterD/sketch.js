@@ -36,6 +36,7 @@ function mousePressed() {
     myLink.position(width/7,height/2);
     myLink.style("font-size", "90px");
     myLink.style("color", "#000000");
+    myLink.style("text-decoration", "none");
   } 
 }
 
