@@ -1,12 +1,10 @@
 // Get a random element from an array using the random(Array) syntax
 var words = [ "dementia", "diaspora", "disOrient", "daughter", "death", "diana", "deliverance", "dialysis", "disAssociate", "dominate", "disappoint", "disLocate" ];
 var word
-var box
 var myLink;
 
 function preload() {
   mySound=loadSound('assets/spaceship2.mp3');
-  box=rect(width/7,height/2, 55, 55);
 }
 
 function setup() {
@@ -33,8 +31,9 @@ function keyPressed() {
 function mousePressed() {
   if (word === "diana") {
     mySound.play();
-    word = '';
-    myLink = createA('http://p5js.org/', 'Where are you from?');
+    word='';
+    myLink.position(width/7,height/2)
+    myLink=createA('http://p5js.org/', 'Where are you from?');
   } 
 }
 
