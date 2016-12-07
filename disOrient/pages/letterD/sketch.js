@@ -32,8 +32,8 @@ function mousePressed() {
   if (word === "diana") {
     mySound.play();
     word='';
-    myLink=createA('http://p5js.org/', 'Where are you from?');
-    myLink.position(width/7,height/2.5);
+    myLink=createA('https://youtu.be/gfEWe8nr-r8', 'Where are you from?');
+    myLink.position(width/7,height/2.4);
     myLink.style("font-size", "80px");
     myLink.style("color", "#660033");
     myLink.style("text-decoration", "none");
