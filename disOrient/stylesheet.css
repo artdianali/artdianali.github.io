@@ -18,7 +18,7 @@ body {
 }
 
 /* sqLink on first page */
-#sqLink a{
+a#sqLink {
     margin-top: 20em;
     margin-left: 20em;
     display: block;
