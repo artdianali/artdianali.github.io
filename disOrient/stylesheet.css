@@ -45,7 +45,8 @@ body {
 
 /*diana link on second page*/
 a {
-    display: block;
-    position: absolute;
-    float: none;
+  text-size: 18em;
+  display: block;
+  position: absolute;
+  float: none;
 }
