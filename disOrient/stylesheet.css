@@ -45,11 +45,9 @@ body {
 
 /*diana link on second page*/
 a {
-    margin-top: 10em;
+    margin-top: 7em;
     margin-left: 2em;
     display: block;
-    width: 8em;
-    height: 8em;
     position: absolute;
     float: none;
 }
