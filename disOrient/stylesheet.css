@@ -42,3 +42,14 @@ body {
   max-width: 20%;
   height: auto;
 }
+
+/*diana link on second page*/
+a {
+    margin-top: -17em;
+    margin-left: 20em;
+    display: block;
+    width: 8em;
+    height: 8em;
+    position: absolute;
+    float: none;
+}
