@@ -33,9 +33,9 @@ function mousePressed() {
     mySound.play();
     word='';
     myLink=createA('http://p5js.org/', 'Where are you from?');
-    myLink.position(width/7,height);
+    myLink.position(width/7,height/2.5);
     myLink.style("font-size", "80px");
-    myLink.style("color", "#100195");
+    myLink.style("color", "#660033");
     myLink.style("text-decoration", "none");
     myLink.style("font-family", "Courier");
   } 
