@@ -33,7 +33,7 @@ function mousePressed() {
     mySound.play();
     word='';
     myLink=createA('http://p5js.org/', 'Where are you from?');
-    myLink.position(width/7,height/2);
+    myLink.position(width/7,height/1.5);
     myLink.style("font-size", "90px");
     myLink.style("color", "#000000");
     myLink.style("text-decoration", "none");
