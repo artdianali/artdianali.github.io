@@ -33,7 +33,7 @@ function mousePressed() {
     mySound.play();
     word='';
     myLink=createA(window.open('https://youtu.be/gfEWe8nr-r8'),window.open('https://youtu.be/pey29CLID3I'), 'Where are you from?');
-    myLink.position(width/7,height/2.4);
+    myLink.position(width/7,height/2.45);
     myLink.style("font-size", "80px");
     myLink.style("color", "#660033");
     myLink.style("text-decoration", "none");
