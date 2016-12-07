@@ -38,6 +38,7 @@ function mousePressed() {
     myLink.style("color", "#660033");
     myLink.style("text-decoration", "none");
     myLink.style("font-family", "Courier");
+    myLink.attribute("target", "_blank");
   } 
 }
 
