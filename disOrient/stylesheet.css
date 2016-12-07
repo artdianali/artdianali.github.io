@@ -43,10 +43,4 @@ body {
   height: auto;
 }
 
-/*diana link on second page*/
-a {
-  font-size: 10em;
-  display: block;
-  position: absolute;
-  float: none;
-}
+
