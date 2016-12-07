@@ -44,7 +44,7 @@ body {
 }
 
 /*diana link on second page*/
-.myLink a {
+#myLink a {
     margin-top: 10em;
     margin-left: 2em;
     display: block;
