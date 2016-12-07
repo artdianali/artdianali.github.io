@@ -33,7 +33,9 @@ function mousePressed() {
     mySound.play();
     word='';
     myLink=createA('http://p5js.org/', 'Where are you from?');
-    myLink.position(width/7,height/2)
+    myLink.position(width/7,height/2);
+    myLink.style("font-size", random(54,90));
+    myLink.style("color", "#000000");
   } 
 }
 
