@@ -34,7 +34,7 @@ function mousePressed() {
     word='';
     myLink=createA('http://p5js.org/', 'Where are you from?');
     myLink.position(width/7,height/2);
-    myLink.style("font-size", 90);
+    myLink.style("font-size", "90px");
     myLink.style("color", "#000000");
   } 
 }
