@@ -33,12 +33,12 @@ function mousePressed() {
     mySound.play();
     word='Where are you from?';
     //12 girls band
-    window.open('https://youtu.be/gfEWe8nr-r8', "mywindow", "location=1,status=1,scrollbars=1,  width=150,height=150"); 
+    window.open('https://youtu.be/gfEWe8nr-r8'); 
     //simon & garfunkel
-    window.open('https://youtu.be/pey29CLID3I', "mywindow", "location=2,status=2,scrollbars=2,  width=150,height=150");
+    window.open('https://youtu.be/pey29CLID3I');
   } else if (word === "Where are you from?") {
-      window.open('https://youtu.be/gfEWe8nr-r8', "mywindow", "location=1,status=1,scrollbars=1,  width=150,height=150"); 
-      window.open('https://youtu.be/pey29CLID3I', "mywindow", "location=1,status=1,scrollbars=1,  width=150,height=150");    
+      window.open('https://youtu.be/gfEWe8nr-r8'); 
+      window.open('https://youtu.be/pey29CLID3I');    
   }
 }
 
