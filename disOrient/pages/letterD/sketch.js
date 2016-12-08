@@ -32,8 +32,9 @@ function mousePressed() {
   if (word === "diana") {
     mySound.play();
     word='Where are you from?';
-    window.open('https://youtu.be/gfEWe8nr-r8'); 
-    window.open('https://youtu.be/pey29CLID3I');
+    window.open('https://youtu.be/gfEWe8nr-r8', "mywindow", "location=1,status=1,scrollbars=1,  width=150,height=150"); 
+    window.open('https://youtu.be/pey29CLID3I', "mywindow", "location=2,status=1,scrollbars=1,  width=150,height=150");
+    
   } 
 }
 
