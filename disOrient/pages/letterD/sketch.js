@@ -35,7 +35,6 @@ function mousePressed() {
     window.open('https://youtu.be/gfEWe8nr-r8'); 
     window.open('https://youtu.be/pey29CLID3I');
   } 
-  return false;
 }
 
 function windowResized() {
