@@ -38,11 +38,13 @@ function mousePressed() {
     window.open('https://youtu.be/yvHoKXQskak');
     //simon & garfunkel
     window.open('https://youtu.be/pey29CLID3I');
+    //my own page
+    window.open('../grandma.html');
   } else if (word === "Where are you from?") {
       window.open('https://youtu.be/gfEWe8nr-r8'); 
       window.open('https://youtu.be/yvHoKXQskak');
       window.open('https://youtu.be/pey29CLID3I');
-      window.open('artdianali.github.io/disOrient/pages/grandma.html');
+      window.open('../grandma.html');
   }
 }
 
