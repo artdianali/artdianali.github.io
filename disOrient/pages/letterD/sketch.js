@@ -34,11 +34,14 @@ function mousePressed() {
     word='Where are you from?';
     //12 girls band
     window.open('https://youtu.be/gfEWe8nr-r8'); 
+    //placido domingo
+    window.open('https://youtu.be/yvHoKXQskak');
     //simon & garfunkel
     window.open('https://youtu.be/pey29CLID3I');
   } else if (word === "Where are you from?") {
       window.open('https://youtu.be/gfEWe8nr-r8'); 
-      window.open('https://youtu.be/pey29CLID3I');    
+      window.open('https://youtu.be/yvHoKXQskak');
+      window.open('https://youtu.be/pey29CLID3I');
   }
 }
 
