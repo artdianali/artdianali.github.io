@@ -12,7 +12,7 @@ function draw(){
   text("Where are you from?",width/7,height/2);
   fill(253,203,50);
   if (mouseIsPressed) {
-    window.open('../shutUp.html')
+    window.open('../shutUp/index.html')
   }
 }
 
