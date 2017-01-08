@@ -1,11 +1,8 @@
-
-
 function setup() {
   createCanvas(windowWidth,windowHeight);
   textFont("Courier");
   textSize(random(54,100));
 }
-
 
 function draw(){
   background(0,139,139);
