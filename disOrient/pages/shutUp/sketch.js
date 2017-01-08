@@ -3,6 +3,7 @@ function preload() {
   sound2=loadSound('assets/SimonGarfunkel.mp3');
   sound3=loadSound('assets/12GirlsBand.mp3');
   img = loadImage("assets/condor.jpg");
+  image(img, 0, 0, width, height);
 }
 
 function setup() {
