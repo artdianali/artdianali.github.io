@@ -40,7 +40,7 @@ function mousePressed() {
     mySound.play();
     word='Where are you from?';
     //12 girls band
-    window.open('https://youtu.be/gfEWe8nr-r8'); 
+    window.open('../whereRUFrom.html'); 
     //placido domingo
     window.open('https://youtu.be/yvHoKXQskak');
     //simon & garfunkel
