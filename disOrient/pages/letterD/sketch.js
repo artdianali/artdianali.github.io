@@ -39,7 +39,7 @@ function mousePressed() {
     mySound.play();
     word='Where are you from?';
     //whereRUFrom.html link
-    window.open('../whereRUFrom.html'); 
+    window.open('../whereRUFrom?/index.html'); 
   } else if (word === "Where are you from?") {
       window.open('https://youtu.be/gfEWe8nr-r8'); 
       window.open('https://youtu.be/yvHoKXQskak');
