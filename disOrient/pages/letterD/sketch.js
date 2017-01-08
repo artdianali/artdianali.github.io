@@ -25,6 +25,13 @@ function keyPressed() {
   if (key === 'd') {
     textSize(random(48,100));
     word=random(words);
+    if (word === 'diana'){
+        textStyle(ITALIC);
+        fill(0,0,139);
+        } else {
+          textStyle(NORMAL);
+          fill(0,0,0);
+    }
   } 
 }
 
