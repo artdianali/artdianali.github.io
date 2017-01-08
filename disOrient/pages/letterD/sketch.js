@@ -1,7 +1,6 @@
 // Get a random element from an array using the random(Array) syntax
 var words = [ "dementia", "diaspora", "disOrient", "daughter", "death", "diana", "deliverance", "dialysis", "disAssociate", "dominate", "disappoint", "disLocate" ];
 var word
-var myLink;
 
 function preload() {
   mySound=loadSound('assets/spaceship2.mp3');
@@ -27,7 +26,7 @@ function keyPressed() {
     word=random(words);
     if (word === 'diana'){
         textStyle(ITALIC);
-        fill(0,0,139);
+        fill(0,139,139);
         } else {
           textStyle(NORMAL);
           fill(0,0,0);
