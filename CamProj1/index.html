@@ -9,15 +9,10 @@
   <style>*{font-family: sans-serif;}</style>
 </head>
  <body>
-  <h2><a href="../">cv-examples</a></h2>
-  <h1>Background Subtraction <a href="script.js">source</a></h1>
-  <p>Detect presence in video. Step outside of the video, press resetBackground(), and step back in. Try different thresholding types and levels.</p>
   <p>
     <button onclick="resetBackground()">resetBackground()</button>
-    <input type="radio" name="thresholdType" value="none">No Threshold
-    <input type="radio" name="thresholdType" value="rgb">Brightness (RGB)
     <input type="radio" name="thresholdType" value="bw">Brightness (any)
-    <input type="range" id="thresholdAmount" value="50">
+    <input type="range" id="thresholdAmount" value="20">
   </p>
   <p>
     Presence: <span id="presence">0</span>%
