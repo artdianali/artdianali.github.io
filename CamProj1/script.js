@@ -16,7 +16,7 @@ function resetBackground() {
 
 function draw() {
   // Displays the image at its actual size at point (0,0)
-  image(img, 640, 0);
+  image(img, 647, 0);
   // video
   capture.loadPixels();
   if(capture.pixels.length > 0) { // don't forget this!
