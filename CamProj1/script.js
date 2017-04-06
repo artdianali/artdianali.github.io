@@ -1,10 +1,12 @@
 var capture;
+var image;
 
 function setup() {
+  createCanvas(1000, 500);
   capture = createCapture(VIDEO);
-  createCanvas(640, 480);
-  capture.size(640, 480);
+  capture.size(640, 500);
   capture.hide();
+  img = loadImage("assets/flwr.jpg"); 
 }
 
 var backgroundPixels;
