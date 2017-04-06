@@ -4,7 +4,7 @@ var image;
 function setup() {
   createCanvas(1000, 500);
   capture = createCapture(VIDEO);
-  capture.size(640, 500, 640, 500);
+  capture.size(640, 500);
   capture.hide();
   img = loadImage("assets/flwr.jpg"); 
 }
@@ -16,7 +16,7 @@ function resetBackground() {
 
 function draw() {
   // Displays the image at its actual size at point (0,0)
-  image(img, 0, 0);
+  image(img, 0, 0, 650, 500);
   // video
   capture.loadPixels();
   if(capture.pixels.length > 0) { // don't forget this!
