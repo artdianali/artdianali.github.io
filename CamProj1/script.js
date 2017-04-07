@@ -4,7 +4,7 @@ var image;
 function setup() {
   createCanvas(1000, 500);
   capture = createCapture(VIDEO);
-  capture.size(640, 500);
+  capture.size(640, 480);
   capture.hide();
   img = loadImage("assets/flwr.jpg"); 
 }
@@ -28,17 +28,8 @@ function draw() {
     var i = 0;
     var pixels = capture.pixels;
     var thresholdAmount = select('#thresholdAmount').value() * 255. / 100.;
-    var thresholdType = getRadioValue('thresholdType');
-    if(thresholdType === 'rgb') {
-      for(var y = 0; y < h; y++) {
-        for(var x = 0; x < w; x++) {
-          pixels[i] = pixels[i] - backgroundPixels[i] > thresholdAmount ? 255 : 0; i++;
-          pixels[i] = pixels[i] - backgroundPixels[i] > thresholdAmount ? 255 : 0; i++;
-          pixels[i] = pixels[i] - backgroundPixels[i] > thresholdAmount ? 255 : 0; i++;
-          i++; // skip alpha
-        }
-      }
-    } else if (thresholdType === 'bw') {
+    var thresholdType = getRadioValue('bw');
+    if (thresholdType === 'bw') {
       var total = 0;
       for(var y = 0; y < h; y++) {
         for(var x = 0; x < w; x++) {
