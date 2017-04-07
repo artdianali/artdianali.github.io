@@ -28,7 +28,7 @@ function draw() {
     var i = 0;
     var pixels = capture.pixels;
     var thresholdAmount = select('#thresholdAmount').value() * 255. / 100.;
-    var thresholdType = getRadioValue('bw');
+    var thresholdType === 'bw';
     if (thresholdType === 'bw') {
       var total = 0;
       for(var y = 0; y < h; y++) {
