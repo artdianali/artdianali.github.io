@@ -21,6 +21,8 @@ function draw() {
   // Displays the image at its actual size at point (0,0)
   if (ratio > 0.5) {
     tint(255,0,0);
+  } else {
+    noTint();
   }
   image(img, 647, 0);
   backgroundSubtraction();
