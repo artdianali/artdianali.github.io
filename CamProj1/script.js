@@ -29,7 +29,8 @@ function draw() {
     var pixels = capture.pixels;
     var thresholdAmount = select('#thresholdAmount').value() * 255. / 100.;
 
-    //if (thresholdType === 'bw') {
+    /*
+    if (thresholdType === 'bw') {
       var total = 0;
       for(var y = 0; y < h; y++) {
         for(var x = 0; x < w; x++) {
@@ -53,8 +54,8 @@ function draw() {
       var n = w * h;
       var ratio = total / n;
       select('#presence').elt.innerText = int(100 * ratio); 
-    /*
-    } else {
+    
+    } else {*/
       for(var y = 0; y < h; y++) {
         for(var x = 0; x < w; x++) {
           pixels[i] = pixels[i] - backgroundPixels[i]; i++;
@@ -63,7 +64,7 @@ function draw() {
           i++; // skip alpha
         }
       }
-    }*/
+    //}
   }
   capture.updatePixels();
   
