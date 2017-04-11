@@ -90,8 +90,9 @@ function draw() {
         }
       }
     }
+    */
   }
-  */
+  
   capture.updatePixels();
   
   image(capture, 0, 0, 640, 480);
