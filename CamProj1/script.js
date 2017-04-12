@@ -1,6 +1,6 @@
 //https://kylemcdonald.github.io/cv-examples/BackgroundSubtraction/sketch.js
 var capture;
-var image;
+var img;
 var ratio;
 
 function setup() {
@@ -69,12 +69,12 @@ function backgroundSubtraction() {
 }
 
 function pixelate() {
-  image.loadPixels();
+  img.loadPixels();
   var stepSize = map(ratio,0,1,0,50);
   for (var y=0; y<height; y+=stepSize) {
     for (var x=0; x<width; x+=stepSize) {
       var i = y * width + x;
-      var darkness = (255 - image.pixels[i*4]) / 255;
+      var darkness = (255 - img.pixels[i*4]) / 255;
       var radius = stepSize * darkness;
       ellipse(x, y, radius, radius);
     }
