@@ -78,6 +78,6 @@ function pixelate() {
       var radius = stepSize * darkness;
       ellipse(x, y, radius, radius);
     }
-  //}
+  }
 }
 
