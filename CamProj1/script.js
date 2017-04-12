@@ -23,7 +23,7 @@ function draw() {
   tint(distortion,0,0);
   image(img, 647, 0);
   backgroundSubtraction();
-  pixelate();
+  //pixelate();
 }
 
 function backgroundSubtraction() {
