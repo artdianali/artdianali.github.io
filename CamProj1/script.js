@@ -20,7 +20,7 @@ function draw() {
   background(255, 204, 0);
   //Displays the image at its actual size at point (0,0)
   var distortion = map(ratio,0,1,0,255);
-  tint(distorion,0,0);
+  tint(distortion,0,0);
   image(img, 647, 0);
   backgroundSubtraction();
   pixelate();
