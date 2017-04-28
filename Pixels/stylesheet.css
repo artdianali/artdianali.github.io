@@ -1,0 +1,7 @@
+/* CSS */
+
+div {
+    /*width: 70px;*/
+    overflow:visible;
+    white-space: nowrap;
+}
