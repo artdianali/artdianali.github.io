@@ -73,7 +73,7 @@ function backgroundSubtraction() {
 function pixelate() {
   img.loadPixels();
   // step size depends on camera change (using the variable "ratio", mapping it to 0...100)
-  var stepSize = int(map(ratio, 0, 1, 0, 100));
+  var stepSize = int(map(ratio, 0, 1, 1, 100));
   
   // move image next to camera image (moving width pixels to the rght)
   translate(capture.width,0)

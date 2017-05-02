@@ -16,31 +16,3 @@ body {
     /* This centers our sketch vertically. */
     align-items: center;
 }
-
-/* sqLink on first page */
-#sqLink {
-    margin-top: -17em;
-    margin-left: 20em;
-    display: block;
-    width: 8em;
-    height: 8em;
-    position: absolute;
-    float: none;
-}
-
-#letterD {
-  background-color: #fdcb32;
-}
-
-#letterD h2 {
-  color: #000000;
-  font-family: Courier;
-  position: fixed;
-  float: right;
-  bottom: 0;
-  right: 1em;
-  max-width: 20%;
-  height: auto;
-}
-
-
