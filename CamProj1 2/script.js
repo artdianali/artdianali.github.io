@@ -4,7 +4,7 @@ var img;
 var ratio;
 
 function setup() {
-  createCanvas(1000, 500);
+  createCanvas(windowWidth, windowHeight);
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
@@ -18,11 +18,10 @@ function resetBackground() {
 }
 
 function draw() {
-  background(255, 204, 0);
+  //background(255, 204, 0);
   // Displays the image at its actual size at point (0,0)
   //var distortion = map(ratio,0,1,0,255);
   //tint(distorion,0,0);
-  image(img, 647, 0);
   backgroundSubtraction();
   pixelate();
 }
@@ -76,7 +75,7 @@ function pixelate() {
   var stepSize = int(map(ratio, 0, 1, 1, 100));
   
   // move image next to camera image (moving width pixels to the rght)
-  translate(capture.width,0)
+  //translate(capture.width,0)
   
   // only pixelate if stepsize is at least 4 pixels (might get too slow otherwise)
   if (stepSize < 4) {
