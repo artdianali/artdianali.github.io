@@ -42,7 +42,7 @@ function backgroundSubtraction() {
       h = capture.height;
     var i = 0;
     var pixels = capture.pixels;
-    var thresholdAmount = select(20).value() * 255. / 100.;
+    var thresholdAmount = 20 /*select(20 value()*/ * 255. / 100.;
 
     var total = 0;
     for (var y = 0; y < h; y++) {
