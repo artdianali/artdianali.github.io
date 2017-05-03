@@ -17,6 +17,10 @@ function resetBackground() {
   backgroundPixels = undefined;
 }
 
+function mousePressed() {
+    resetBackground();
+}
+
 function draw() {
   //background(255, 204, 0);
   // Displays the image at its actual size at point (0,0)
