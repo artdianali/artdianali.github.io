@@ -71,7 +71,7 @@ function backgroundSubtraction() {
 
   capture.updatePixels();
 
-  image(capture, windowWidth, windowHeight);
+  image(capture, 0, 0, windowWidth, windowHeight);
 }
 
 function pixelate() {
