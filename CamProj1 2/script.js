@@ -8,7 +8,7 @@ function setup() {
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
-  img = loadImage("assets/flwr.jpg");
+  img = loadImage("assets/Margarita.jpg");
 }
 
 var backgroundPixels;
