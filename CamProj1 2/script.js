@@ -85,7 +85,7 @@ function pixelate() {
   
   // only pixelate if stepsize is at least 4 pixels (might get too slow otherwise)
   if (stepSize < 4) {
-    image(img,0,0);
+    image(img,windowWidth,windowHeight);
   }  else {
     for (var y = 0; y < img.height; y += stepSize) {
       for (var x = 0; x < img.width; x += stepSize) {
