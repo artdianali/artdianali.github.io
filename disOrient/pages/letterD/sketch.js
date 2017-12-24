@@ -31,7 +31,16 @@ function keyPressed() {
           textStyle(NORMAL);
           fill(0,0,0);
     }
-  } 
+  } else if (mouseIsPressed) {
+      textSize(random(48,100));
+      word=random(words);
+      if (word === 'dementia'){
+          textStyle(ITALIC, BOLD);
+          fill(0,0,255);
+          } else {
+            textStyle(NORMAL);
+            fill(0,0,0);
+    }
 }
 
 function mousePressed() {
