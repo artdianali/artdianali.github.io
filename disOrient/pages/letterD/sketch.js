@@ -1,5 +1,5 @@
 // Get a random element from an array using the random(Array) syntax
-var words = [ "dementia", "diaspora", "disorient", "daughter", "death", "deaf", "deliverance", "dialysis", "disassociate", "dominate", "disappoint", "dislocate" ];
+var words = [ "dementia", "diaspora", "disorient", "daughter", "death", "deliverance", "dialysis", "disassociate", "dominate", "disappoint", "dislocate" ];
 var word
 
 function preload() {
