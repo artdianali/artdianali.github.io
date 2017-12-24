@@ -41,6 +41,7 @@ function keyPressed() {
             textStyle(NORMAL);
             fill(0,0,0);
     }
+  }
 }
 
 function mousePressed() {
