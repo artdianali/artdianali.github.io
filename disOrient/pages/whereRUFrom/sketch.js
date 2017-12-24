@@ -8,11 +8,11 @@ function setup() {
 
 
 function draw(){
-  background(0,139,139);
+  background(0,0,255);
   text("Where are you from?",width/7,height/2);
   fill(253,203,50);
   if (mouseIsPressed) {
-    window.open('../shutUp/index.html')
+    window.location.replace('../shutUp/index.html')
   }
 }
 
