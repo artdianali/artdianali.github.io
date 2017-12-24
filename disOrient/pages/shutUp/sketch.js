@@ -17,7 +17,7 @@ function setup() {
 
 function draw(){
   image(img, 0, 0, width, height);
-  text("shut the f*ck up", width/2, height/7);
+  text("shut the f*ck up", width/2, height);
   fill(253,203,50);
   if (mouseIsPressed) {
     window.open('../visitor/index.html')
