@@ -25,7 +25,7 @@ function keyPressed() {
     textSize(random(48,100));
     word=random(words);
     if (word === 'dementia'){
-        textStyle(ITALIC);
+        textStyle(ITALIC, BOLD);
         fill(0,0,255);
         } else {
           textStyle(NORMAL);
