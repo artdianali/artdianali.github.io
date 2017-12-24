@@ -3,7 +3,7 @@ var words = [ "dementia", "diaspora", "disOrient", "daughter", "death", "diana",
 var word
 
 function preload() {
-  mySound=loadSound('assets/spaceship2.mp3');
+  mySound=loadSound('assets/disappoint.mp3');
 }
 
 function setup() {
@@ -37,9 +37,9 @@ function keyPressed() {
 function mousePressed() {
   if (word === "diana") {
     mySound.play();
-    word='Where are you from?';
+    //word='Where are you from?';
     //whereRUFrom.html link
-    window.open('../whereRUFrom/index.html'); 
+    window.location.replace('../whereRUFrom/index.html'); 
   } else if (word === "Where are you from?") {
       window.open('https://youtu.be/gfEWe8nr-r8'); 
       window.open('https://youtu.be/yvHoKXQskak');
