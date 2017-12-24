@@ -1,5 +1,5 @@
 // Get a random element from an array using the random(Array) syntax
-var words = [ "dementia", "diaspora", "disOrient", "daughter", "death", "diana", "deliverance", "dialysis", "disAssociate", "dominate", "disappoint", "disLocate" ];
+var words = [ "dementia", "diaspora", "disorient", "daughter", "death", "deaf", "deliverance", "dialysis", "disassociate", "dominate", "disappoint", "dislocate" ];
 var word
 
 function preload() {
@@ -24,9 +24,9 @@ function keyPressed() {
   if (key === 'd') {
     textSize(random(48,100));
     word=random(words);
-    if (word === 'diana'){
+    if (word === 'dementia'){
         textStyle(ITALIC);
-        fill(0,139,139);
+        fill(0,0,255);
         } else {
           textStyle(NORMAL);
           fill(0,0,0);
@@ -35,16 +35,12 @@ function keyPressed() {
 }
 
 function mousePressed() {
-  if (word === "diana") {
+  if (word === "dementia") {
     mySound.play();
     //word='Where are you from?';
     //whereRUFrom.html link
     window.location.replace('../whereRUFrom/index.html'); 
-  } else if (word === "Where are you from?") {
-      window.open('https://youtu.be/gfEWe8nr-r8'); 
-      window.open('https://youtu.be/yvHoKXQskak');
-      window.open('https://youtu.be/pey29CLID3I');
-  }
+  } 
 }
 
 function windowResized() {
