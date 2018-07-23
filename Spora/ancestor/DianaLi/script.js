@@ -8,7 +8,7 @@ function setup() {
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
-  img = loadImage("assets/Margarita_SamsungS3.jpg");
+  img = loadImage("assets/MargaritaMacPeiFang.jpg");
 }
 
 var backgroundPixels;
