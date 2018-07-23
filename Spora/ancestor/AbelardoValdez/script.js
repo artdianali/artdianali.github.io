@@ -2,6 +2,7 @@
 var capture;
 var img;
 var ratio;
+var song;
 
 function setup() {
   song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
