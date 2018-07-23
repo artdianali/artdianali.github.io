@@ -5,7 +5,6 @@ var ratio;
 var song;
 
 function preload() {
-  soundFormats('mp3');
   song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
 }
 
