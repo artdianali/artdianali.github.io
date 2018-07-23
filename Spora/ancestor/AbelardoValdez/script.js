@@ -3,11 +3,8 @@ var capture;
 var img;
 var ratio;
 
-function preload() {
-  song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
-}
-
 function setup() {
+  song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
   createCanvas(windowWidth, windowHeight);
   capture = createCapture(VIDEO);
   capture.size(640, 480);
