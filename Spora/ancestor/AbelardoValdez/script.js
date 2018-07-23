@@ -3,12 +3,17 @@ var capture;
 var img;
 var ratio;
 
+function preload() {
+  song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
   img = loadImage("../../assets/JoseRobertoPanfiloMedinaOrtiz.jpg");
+  song.loop(); 
 }
 
 var backgroundPixels;
