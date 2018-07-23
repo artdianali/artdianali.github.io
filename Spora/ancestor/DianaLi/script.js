@@ -8,7 +8,7 @@ function setup() {
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
-  img = loadImage("assets/MargaritaMacPeiFang.jpg");
+  img = loadImage("../../assets/MargaritaMacPeiFang.jpg");
 }
 
 var backgroundPixels;
