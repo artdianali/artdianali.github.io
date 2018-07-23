@@ -5,12 +5,13 @@ var ratio;
 var song;
 
 function setup() {
-  song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
+
   createCanvas(windowWidth, windowHeight);
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
   img = loadImage("../../assets/JoseRobertoPanfiloMedinaOrtiz.jpg");
+  song = loadSound('../../assets/MariachiMexicoJesusitaEnChihuahua.mp3');
   song.loop(); 
 }
 
